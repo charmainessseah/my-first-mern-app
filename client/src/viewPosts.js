@@ -27,16 +27,13 @@ function ViewPosts() {
 
     return(
         <div>
-            {<Posts posts={posts}/>}
-            
             <div className="home-link">
                 <Link style={linkStyle} to='/'>
                 Back to Home 
                 </Link>  
             </div>
-            
-              
-            
+
+            {<Posts posts={posts}/>}           
         </div>
     )
 }
