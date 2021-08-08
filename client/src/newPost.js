@@ -51,9 +51,12 @@ function NewPost() {
                 <br></br>
             </form>
 
-            <Link  style={linkStyle} to='/'>
-                Back to Home
-            </Link>
+            <div className="newPost-home-button">
+                <Link style={linkStyle} to='/'>
+                    Back to Home
+                </Link>
+            </div>
+            
         </div>
     )
 }
