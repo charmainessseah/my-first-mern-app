@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "client": "cd .. && npm start",
     "dev": "concurrently \"nodemon server\" \"npm run client\"",
-    "heroku-post-build": "cd client/build && npm install && npm run build"
+    "heroku-post-build": "cd client && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
