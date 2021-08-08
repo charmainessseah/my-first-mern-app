@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form-container {
+  background-color: rgb(21, 21, 21);
+  height: 800px;
+  width: 1000px;
+  margin: 30px;
+  padding: 20px;
+}
+
+.title-input {
+  min-height: 70px;
+  width: 800px;
+  display: block;
+  margin: 60px 80px 0px 80px;
+  font-size: 35px;
+  resize: none;
+}
+
+.content-input {
+  width: 800px;
+  min-height: 250px;
+  display: block;
+  margin: 60px 80px 0px 80px;
+  font-size: 35px;
+  resize: none;
+}
+
+.submit-button {
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+.post-title {
+  margin-top: 25px;
+  padding: 25px;
+}
+
+.post-content {
+  margin: 15px;
+  padding: 25px;
+}
+
+.post {
+  background-color: rgb(21, 21, 21);
+  width: 800px;
+  min-height: 100px;
+  border-radius: 2px;
+  word-wrap: break-word;
+  border-color: white;
+}
+
+.post-container {
+}
+
+.home-links {
+  display: inline-block;
+  margin: 50px;
+}
+
+.home-link {
+  margin: 50px;
+}
