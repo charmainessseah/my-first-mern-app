@@ -3,8 +3,7 @@ const app = express();
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const cors = require('cors');
-const routeUrls = require('./routes/routes');
-const { use } = require('./routes/routes');
+const routeUrls = require('./backend/routes/routes');
 const PORT = process.env.PORT || 4000;
 const path = require('path');
 
@@ -22,10 +21,10 @@ app.use(cors());
 app.use('/app', routeUrls);
 
 if (process.env.NODE_ENV === 'production') {
-    app.use(express.static('../build'));
+    app.use(express.static('client/build'));
 
     app.get('*', (req, res) => {
-        res.sendFile(path.join(__dirname, '..', 'build', 'index.html'));
+        res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
     })
 }
 
