@@ -1,7 +1,7 @@
 import './App.css';
 import { Link, BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import NewPost from './newPost';
-
+import Icon from './icon.png'
 import ViewPosts from './viewPosts';
 
 function App() {
@@ -29,7 +29,7 @@ const linkStyle = {
 const Home = () => {
   return(
     <div>
-    <h1>Home</h1>
+    <img className="home-icon" src={Icon} alt="icon" />
 
     <div className="home-links">
       <Link style={linkStyle} to="/viewPosts">

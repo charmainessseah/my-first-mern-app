@@ -27,7 +27,7 @@ function ViewPosts() {
 
     return(
         <div>
-            <div className="home-link">
+            <div className="viewPost-home-button home-links">
                 <Link style={linkStyle} to='/'>
                 Back to Home 
                 </Link>  

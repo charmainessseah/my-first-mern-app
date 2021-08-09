@@ -51,7 +51,7 @@ function NewPost() {
                 <br></br>
             </form>
 
-            <div className="newPost-home-button">
+            <div className="newPost-home-button home-links">
                 <Link style={linkStyle} to='/'>
                     Back to Home
                 </Link>
