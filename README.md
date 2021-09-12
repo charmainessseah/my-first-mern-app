@@ -4,6 +4,8 @@ This rant app supports users posting and viewing past posts, from most to least 
 
 ![image](https://user-images.githubusercontent.com/80232795/133005114-805e03ae-170f-4a23-82bd-0e037b9bb0e9.png)
 
+Check it out [here](https://my-first-mern-blog-app.herokuapp.com/)!
+
 ## Technologies used
 - Frontend
   - React
