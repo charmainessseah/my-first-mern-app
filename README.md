@@ -12,6 +12,7 @@ Check it out [here](https://my-first-mern-blog-app.herokuapp.com/)!
 - Backend
   - ExpressJS
   - NodeJS
+  - React Router
 - Database
   - MongoDB
 - Deployment
